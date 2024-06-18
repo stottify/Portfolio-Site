@@ -2,44 +2,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <title>M Stott Design</title>
 </head>
 <body>
     <header>
-        <img src="/images/Mstott Design Logo.svg" alt="Company Logo">
         <nav>
             <ul>
+                <li><a href="#"><img src="/images/Mstott Design Logo.svg" alt="Company Logo" class="nav-logo"></a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">About</a></li>
             </ul>
-            <button>Contact</button>
+            <a href="#" class="button" id="contact-button">Contact</a>
         </nav>
     </header>
+    <main>
     <section class="hero">
         <h1>Stack Developer</h1>
-        <button>A What?</button>
+        <a href="#" class="button" id="a-what-button">A What?</a>
     </section>
     <section>
-        <h2>Cool Projects</h2>
-        <div class="Portfolio-card">
+        <h2>Cool Projects...</h2>
+        <div class="flex-container">
+        <div class="portfolio-card">
             <img src="/images/Round_full_colour_with_tagline-f0134141-6c87494c-1920w.webp" alt="Blatchford Briar Logo">
             <h3>Blatchford Briar</h3>
             <p>Brand Identitiy and website refresh</p>
-            <button>Read More</button>
+            <a href="#" class="portfolio-button">Read More</a>
         </div>
         <div class="Portfolio-card">
             <img src="/images/Dartmoor Photographic.png" alt="Dartmoor Photographic Website">
             <h3>Dartmoor Photographic</h3>
             <p>Custom styles and templates for eCommerce site</p>
-            <button>Read More</button>
+            <a href="#" class="portfolio-button">Read More</a>
         </div>
         <div class="Portfolio-card">
             <img src="/images/tavi laundry.png" alt="Tavistock Launderette Website">
             <h3>Tavistock Launderette</h3>
             <p>Website refresh with client run content management</p>
-            <button>Read More</button>
+            <a href="#" class="portfolio-button">Read More</a>
+        </div>
         </div>
     </section>
+    </main>
     <footer>
         <h3>Contact</h3>
         <p>Tel: 07375489008</p>

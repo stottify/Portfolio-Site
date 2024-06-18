@@ -1,0 +1,128 @@
+* {
+    font-family: "Source Code Pro", monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0 12px;
+}
+
+header {
+    height: 123px;
+    padding: 38px 0px;
+}
+
+.nav-logo {
+    width: 75px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;    
+    list-style: none;
+}
+
+nav li {
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+nav li a {
+    color: #1e1e1e;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 40;
+}
+
+.button {
+    display: block;
+    width: 241px;
+    height: 75px;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: auto;
+}
+
+#contact-button {
+    position: absolute;
+    top: 38px;
+    right: 12px;
+}
+
+.hero {
+    width: 100%;
+    margin: auto;
+    height: 494px;
+    border-radius: 10px;
+    background-image: url("../images/pexels-tara-winstead-6693308.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    align-content: center;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+    padding-bottom: 100px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.portfolio-card {
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    border-radius: 5px;
+    padding: 12px;
+    filter: drop-shadow(-1px 1px 2px #1e1e1e);
+}
+
+.portfolio-card img {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.portfolio-button {
+    width:fit-content;
+    padding: 10px;
+    display: block;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+footer {
+    color: white;
+    background-color: #1e1e1e;
+    margin: 0 -12px 0 -12px;
+    padding: 20px;
+}
