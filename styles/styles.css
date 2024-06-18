@@ -149,10 +149,11 @@ footer {
         right: 12px;
         width: 60px;
         z-index: 2;
+        cursor: pointer;
     }
+
     .mob-nav {
         z-index: 1;
-        display: none;
         position: absolute;
         list-style: none;
         background-color: white;
@@ -160,11 +161,23 @@ footer {
         right: 0;
         width: 50%;
         color:#1e1e1e;
+        text-align: right;
         padding-top: 100px;
         padding-right: 20px;
         font-size: 30px;
         top: 0;
-        filter: drop-shadow(-1px 1px 2px #1e1e1e);
+        filter: drop-shadow(-1px 1px 2px #1e1e1e)
+    }
+   .hide {
+        transition-timing-function: ease-in;
+        transition: 0.2s;
+        transform: translateX(130%);
+    }
+
+    .show {
+        transition-timing-function: ease-out;
+        transition: 0.25s;
+        transform: translate(0);
     }
     .mob-nav a {
         display: block;
@@ -177,7 +190,8 @@ footer {
         color: white;
         width: fit-content;
         border-radius: 5px;
-        margin: 0;
+        margin: 0 0 0 auto;
         padding: 5px;
     }
 }
+
