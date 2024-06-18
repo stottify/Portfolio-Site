@@ -97,6 +97,7 @@ h2 {
     border-radius: 5px;
     padding: 12px;
     filter: drop-shadow(-1px 1px 2px #1e1e1e);
+    margin-top: 20px;
 }
 
 .portfolio-card img {
@@ -125,4 +126,58 @@ footer {
     background-color: #1e1e1e;
     margin: 0 -12px 0 -12px;
     padding: 20px;
+}
+
+#mob-logo,
+.hamburger,
+.mob-nav {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    #contact-button, nav {
+        display: none;
+    }
+    #mob-logo,
+    .hamburger,
+    .mob-nav {
+        display: block;
+    }
+    .hamburger {
+        position:absolute;
+        top: 38px;
+        right: 12px;
+        width: 60px;
+        z-index: 2;
+    }
+    .mob-nav {
+        z-index: 1;
+        display: none;
+        position: absolute;
+        list-style: none;
+        background-color: white;
+        height: 100%;
+        right: 0;
+        width: 50%;
+        color:#1e1e1e;
+        padding-top: 100px;
+        padding-right: 20px;
+        font-size: 30px;
+        top: 0;
+        filter: drop-shadow(-1px 1px 2px #1e1e1e);
+    }
+    .mob-nav a {
+        display: block;
+        color:#1e1e1e;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #mob-contact a {
+        background-color: #1e1e1e;
+        color: white;
+        width: fit-content;
+        border-radius: 5px;
+        margin: 0;
+        padding: 5px;
+    }
 }
