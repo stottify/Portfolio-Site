@@ -40,8 +40,6 @@ nav li a {
 
 .button {
     display: block;
-    width: 241px;
-    height: 75px;
     background-color: #1e1e1e;
     border-radius: 5px;
     color: white;
@@ -52,10 +50,37 @@ nav li a {
     margin: auto;
 }
 
+.button.pink {
+    background-color: #a64e5e;
+}
+
+.button.green {
+    background-color: #9ba64b;
+}
+
+.button.blue {
+    background-color: #569fa5;
+}
+
+.button.orange { 
+    background-color: #bf6211;
+}
+
+.button.dark-orange {
+    background-color: #d93d04;
+}
+
 #contact-button {
     position: absolute;
     top: 38px;
     right: 12px;
+    width: 241px;
+    height: 75px;
+}
+
+#a-what-button {
+    width: 241px;
+    height: 75px;
 }
 
 .hero {
@@ -110,7 +135,6 @@ h2 {
     width:fit-content;
     padding: 10px;
     display: block;
-    background-color: #1e1e1e;
     border-radius: 5px;
     color: white;
     text-align: center;
